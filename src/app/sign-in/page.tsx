@@ -1,6 +1,5 @@
 'use client';
 import FormInput from "@/components/FormInput";
-import SocialButton from "@/components/SocialButton";
 import { useState } from "react";
 import { FaApple, FaEye, FaEyeSlash, FaGoogle } from "react-icons/fa";
 
@@ -89,16 +88,6 @@ export default function SignIn() {
                     </div>
                 </div>
                 <div className="w-full max-w-2xl">
-                    <div className="flex items-center my-6">
-                        <div className="flex-grow border-t border-gray-600"></div>
-                        <div className="mx-4 text-gray-500 text-sm">or</div>
-                        <div className="flex-grow border-t border-gray-600"></div>
-                    </div>
-                    <div className="flex flex-col gap-6">
-                        <SocialButton icon={<FaGoogle />} text="Continue with Google" />
-                        <SocialButton icon={<FaApple />} text="Continue with Apple" />
-
-                    </div>
                     <div className="flex my-3 gap-1 justify-center">
                         Dont have an account?
                         <a
